@@ -1,0 +1,39 @@
+
+
+    .submitBtn{
+        background:#8A33FD ;
+        color: white;
+    }
+
+    .inputLabels{
+        font-family: 'causten', sans-serif;
+        font-weight: 400;
+    }
+    
+    .inputFieldsLogin{
+        font-size: 18px;
+    }
+
+    @media (max-width: 767.98px) {
+        .logindiv {
+          height: 100vh; /* Make the form container full height */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      
+        .form-outline,
+        .form-control,
+        .inputLabels,
+        .submitBtn {
+          width: 100%;
+        }
+      }
+    
+.provLog{
+  font-family: 'causten', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
